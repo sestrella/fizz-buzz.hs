@@ -1,6 +1,6 @@
 name:                fizz-buzz
 version:             0.1.0.0
-github:              "sestrella/fizz-buzz"
+github:              "sestrella/fizz-buzz.hs"
 license:             MIT
 author:              "Sebastián Estrella"
 maintainer:          "sestrella.me@gmail.com"
@@ -16,7 +16,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/sestrella/fizz-buzz#readme>
+description:         Please see the README on GitHub at <https://github.com/sestrella/fizz-buzz.hs#readme>
 
 dependencies:
 - base >= 4.7 && < 5
