@@ -1,7 +1,7 @@
 name:                fizz-buzz
 version:             0.1.0.0
 github:              "sestrella/fizz-buzz"
-license:             BSD3
+license:             MIT
 author:              "Sebastián Estrella"
 maintainer:          "sestrella.me@gmail.com"
 copyright:           "2019 Sebastián Estrella"
