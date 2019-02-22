@@ -15,9 +15,9 @@ data FizzBuzz
   | FizzBuzz
   | Number Nat
 
-type ToFizzBuzz a = If (DivisibleBy a 5 && DivisibleBy a 3) 'FizzBuzz (TiFizz a)
+type ToFizzBuzz a = If (DivisibleBy a 5 && DivisibleBy a 3) 'FizzBuzz (ToFizz a)
 
-type TiFizz a = If (DivisibleBy a 3) Fizz (ToBuzz a)
+type ToFizz a = If (DivisibleBy a 3) Fizz (ToBuzz a)
 
 type ToBuzz a = If (DivisibleBy a 5) Buzz (Number a)
 
