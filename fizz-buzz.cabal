@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 8392c5d09029d4a4e2aa8f0d1159940caa8965849d4d0044cc8c7145b7c6d63a
+
+name:           fizz-buzz
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/sestrella/fizz-buzz.hs#readme>
+homepage:       https://github.com/sestrella/fizz-buzz.hs#readme
+bug-reports:    https://github.com/sestrella/fizz-buzz.hs/issues
+author:         Sebastián Estrella
+maintainer:     sestrella.me@gmail.com
+copyright:      2019 Sebastián Estrella
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/sestrella/fizz-buzz.hs
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_fizz_buzz
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010

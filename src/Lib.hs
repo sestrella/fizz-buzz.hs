@@ -6,8 +6,7 @@ module Lib where
 
 import Data.Type.Bool
 import Data.Type.Equality
-import GHC.TypeLits
-import Type.Reflection
+import GHC.TypeNats
 
 data FizzBuzz
   = Fizz

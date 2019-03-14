@@ -1,5 +1,7 @@
 # fizz-buzz
 
+[![Build Status](https://travis-ci.org/sestrella/fizz-buzz.hs.svg?branch=master)](https://travis-ci.org/sestrella/fizz-buzz.hs)
+
 Type level [Fizz Buzz][fizz-buzz] implementation.
 
 ## Requirements 
