@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8392c5d09029d4a4e2aa8f0d1159940caa8965849d4d0044cc8c7145b7c6d63a
+-- hash: 49fd1e20064555908b6e47155ad7a7aca79b603ca01006098a26ccae551ff5a9
 
 name:           fizz-buzz
 version:        0.1.0.0
@@ -26,7 +26,8 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      FizzBuzz.V1
+      FizzBuzz.V2
   other-modules:
       Paths_fizz_buzz
   hs-source-dirs:
