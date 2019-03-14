@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.org/sestrella/fizz-buzz.hs.svg?branch=master)](https://travis-ci.org/sestrella/fizz-buzz.hs)
 
-Type level [Fizz Buzz][fizz-buzz] implementation.
+Type-level [Fizz Buzz][fizz-buzz] implementations.
 
 ## Requirements 
 
-- Install [stack][stack]
+Install [stack][stack].
 
 ## Getting Started
 
@@ -21,6 +21,8 @@ Compile the project:
 ```
 stack build
 ```
+
+~~Run the tests~~ no need, all tests are performed at compilation time!
 
 ## License
 
